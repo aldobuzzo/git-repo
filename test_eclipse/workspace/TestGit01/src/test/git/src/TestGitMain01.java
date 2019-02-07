@@ -9,6 +9,9 @@ public class TestGitMain01 {
 		System.out.println("Call Hello2");
 		SayHello02 sayHello2 = new SayHello02();
 		sayHello2.sayHello();
+		System.out.println("Call Good Bye");
+		SayGoodBye01 sayGoodBye = new SayGoodBye01();
+		sayGoodBye.sayGoodBye();
 		System.out.println("End Main program");
 	}
 
