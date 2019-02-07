@@ -4,6 +4,9 @@ public class TestGitMain01 {
 
 	public static void main(String[] args) {
 		System.out.println("Start Main program");
+		System.out.println("Call JustWakenUp");
+		new JustWakeUp().justWakenUp();
+		System.out.println("Call Hello1");
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
 		System.out.println("Call Hello2");
