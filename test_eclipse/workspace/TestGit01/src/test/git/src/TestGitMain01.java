@@ -6,6 +6,11 @@ public class TestGitMain01 {
 		System.out.println("Start Main program");
 		System.out.println("Call JustWakenUp");
 		new JustWakeUp().justWakenUp();
+				
+		System.out.println("Call SayGoodMorning01");
+		new SayGoodMorning01().sayGoodMorning();
+		
+		
 		System.out.println("Call Hello1");
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
